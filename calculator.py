@@ -3,8 +3,7 @@ def add(a, b):
 
 
 def subtract(a, b):
-	pass
-
+    return a-b
 
 def multiply(a, b):
     pass
@@ -28,3 +27,4 @@ def mod(a, b):
 
 if __name__ == "__main__":
     print(add(1,2))
+    print(subtract(1,2))
