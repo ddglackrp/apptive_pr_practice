@@ -1,13 +1,13 @@
 def add(a, b):
-    print(a+b)
+    pass
 
 
 def subtract(a, b):
-	print( a-b )
+	pass
 
 
 def multiply(a, b):
-    print( a*b)
+    pass
 
 
 def divide(a, b):
@@ -15,8 +15,7 @@ def divide(a, b):
 
 
 def pow(a, b):
-    print( a**b)
-
+    pass
 
 def abs(a):
     if a > 0 :
