@@ -37,4 +37,4 @@ if __name__ == "__main__":
     divide(8,2)
     pow(9,3)
     abs(5)
-    mod(8,3)
+    mod(8,2)
