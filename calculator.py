@@ -1,17 +1,17 @@
 def add(a, b):
-    return a+b
+    pass
 
 
 def subtract(a, b):
-	return a-b
+	pass
 
 
 def multiply(a, b):
-    return a*b
+    pass
 
 
 def divide(a, b):
-    return a/b
+    pass
 
 
 def pow(a, b):
@@ -25,7 +25,7 @@ def abs(a):
         return a
 
 def mod(a, b):
-    return a%b
+    pass
 
 
 if __name__ == "__main__":
