@@ -26,10 +26,11 @@ def abs(a):
 
 
 def mod(a, b):
-    pass
+    return (a % b)
 
 
 if __name__ == "__main__":
     print(add(6, 4))
     print(abs(-10))
+    print(mod(10, 4))
     pass
