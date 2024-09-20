@@ -7,11 +7,11 @@ def subtract(a, b):
 
 
 def multiply(a, b):
-    return a*b
+    return a * b
 
 
 def divide(a, b):
-    return a/b
+    return a / b
 
 
 def pow(a, b):
@@ -27,5 +27,5 @@ def mod(a, b):
 
 
 if __name__ == "__main__":
-    print(multiply(15,3))
-    print(divide(15,3))
+    print(multiply(16,4))
+    print(divide(16,4))
