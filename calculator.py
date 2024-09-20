@@ -1,25 +1,27 @@
 def add(a, b):
-    pass
+    return a+b
 
 
 def subtract(a, b):
-	pass
+	return a-b
 
 
 def multiply(a, b):
-    pass
+    return a*b
 
 
 def divide(a, b):
-    pass
+    return a/b
 
 
 def pow(a, b):
-    pass
+    return a**b
 
 
 def abs(a):
-    pass
+    if a<0:
+        a-=a*2
+    return a
 
 
 def mod(a, b):
