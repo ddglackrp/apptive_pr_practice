@@ -19,7 +19,10 @@ def pow(a, b):
 
 
 def abs(a):
-    pass
+    if a < 0:
+        return -a
+    else:
+        return a
 
 
 def mod(a, b):
@@ -28,4 +31,5 @@ def mod(a, b):
 
 if __name__ == "__main__":
     print(add(6, 4))
+    print(abs(-10))
     pass
