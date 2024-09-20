@@ -1,9 +1,9 @@
 def add(a, b):
-    pass
+    return a + b
 
 
 def subtract(a, b):
-	pass
+    pass
 
 
 def multiply(a, b):
@@ -19,13 +19,18 @@ def pow(a, b):
 
 
 def abs(a):
-    pass
+    if a < 0:
+        return -a
+    else:
+        return a
 
 
 def mod(a, b):
-    pass
+    return (a % b)
 
 
 if __name__ == "__main__":
-    # 간단한 테스트 코드
+    print(add(6, 4))
+    print(abs(-10))
+    print(mod(10, 4))
     pass
