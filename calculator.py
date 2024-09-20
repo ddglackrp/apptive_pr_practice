@@ -11,21 +11,30 @@ def multiply(a, b):
 
 
 def divide(a, b):
-    pass
+    print( a/b)
 
 
 def pow(a, b):
     pass
 
-
 def abs(a):
-    pass
+    if a > 0 :
+        print( a)
+    else :
+        print( -a)
 
 
 def mod(a, b):
-    pass
+    print( a%b)
+
 
 
 if __name__ == "__main__":
     # 간단한 테스트 코드
-    pass
+    add(1,2)
+    subtract(3,2)
+    multiply(3,4)
+    divide(8,2)
+    pow(9,3)
+    abs(5)
+    mod(8,2)
