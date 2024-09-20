@@ -1,21 +1,21 @@
 def add(a, b):
-    return a+b
+    pass
 
 
 def subtract(a, b):
-	return a-b
+	pass
 
 
 def multiply(a, b):
-    return a*b
+    pass
 
 
 def divide(a, b):
-    return a/b
+    pass
 
 
 def pow(a, b):
-    pass
+    print(a**b)
 
 
 def abs(a):
