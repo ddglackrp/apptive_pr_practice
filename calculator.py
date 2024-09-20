@@ -3,14 +3,14 @@ def add(a, b):
 
 
 def subtract(a, b):
-	pass
+	return a - b
 
 
 def multiply(a, b):
     pass
 
 
-def divide(a, b):
+def divzide(a, b):
     pass
 
 
@@ -28,4 +28,5 @@ def mod(a, b):
 
 if __name__ == "__main__":
     # 간단한 테스트 코드
+    subtract(3,2)
     pass
