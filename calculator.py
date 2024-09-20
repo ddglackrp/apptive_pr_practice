@@ -15,15 +15,15 @@ def divide(a, b):
 
 
 def pow(a, b):
-    pass
+    return a**b
 
 
 def abs(a):
-    pass
+    return math.abs(a)
 
 
 def mod(a, b):
-    pass
+    return a % b
 
 
 if __name__ == "__main__":
