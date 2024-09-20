@@ -23,6 +23,7 @@ def abs(a):
 
 
 def mod(a, b):
+    return a%b
     pass
 
 
