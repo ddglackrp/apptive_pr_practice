@@ -1,9 +1,9 @@
 def add(a, b):
-    pass
+    return a+b
 
 
 def subtract(a, b):
-	pass
+	return a-b
 
 
 def multiply(a, b):
@@ -27,5 +27,5 @@ def mod(a, b):
 
 
 if __name__ == "__main__":
-    # 간단한 테스트 코드
-    pass
+    print(add(2,3))
+    print(subtract(2,3))
